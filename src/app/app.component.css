@@ -1,0 +1,21 @@
+.title{
+    color: red;
+    text-align: center;
+    
+}
+.chart-container {
+    width: 1500px; /* Largeur de chaque composant */
+    margin: 10px; /* Marge entre les composants */
+    align-items: center;
+  }
+  .chart-container2 {
+    width: 100%; /* Largeur de chaque composant */
+    margin: 10px; /* Marge entre les composants */
+    align-items: center;
+  }
+.myTable{
+    padding: 10px;
+  position: center;
+  height: 50px;
+  width: 100%;
+}

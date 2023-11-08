@@ -1,0 +1,7 @@
+<input class="form-control" type="text" placeholder="message" [(ngModel)]="input">
+<button class="btn btn-success" (click)="sendMessage()">Send</button>
+<div>
+    <div *ngFor="let row of messageService.msg">
+        {{row.nbvideo}}
+    </div>
+</div>
